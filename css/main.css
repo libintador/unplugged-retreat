@@ -333,6 +333,11 @@ input[type=button] {
     max-width: 205px;
 }
 
+.features i {
+	font-size: 3.75em;
+    margin-bottom: 40px;
+}
+
 /* Reviews */
 
 .reviews {
