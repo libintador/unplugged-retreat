@@ -167,9 +167,6 @@ header .content-wrapper {
     margin: 0;
 }
 
-/* - the size of the logo is too big
-   - the image border is visible*/
-
 header figure {
     width: 60%;
     display: flex;
@@ -235,6 +232,14 @@ footer .social-icons p {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #527158;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+footer .social-icons p i {
+    font-size: 1.125em;
 }
 
 footer .copyright {
@@ -562,6 +567,7 @@ input[type=button] {
         display: none;
     }
 
+
     /* Hero Area */
 
     .hero-area {
@@ -633,10 +639,11 @@ input[type=button] {
         margin: 100px 0;
     }
 
-    .footer-content {
+    footer .footer-content {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        flex-direction: row;
     }
 
     footer .contact {
@@ -646,6 +653,15 @@ input[type=button] {
     footer h4 {
         font-size: 1.5em;
         margin-bottom: 40px;
+    }
+
+    footer p {
+        line-height: 1.285;
+    }
+
+    footer .social-icons {
+        width: 12.5em;
+        justify-content: space-between;
     }
 
     footer .copyright {
