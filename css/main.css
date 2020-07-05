@@ -268,6 +268,7 @@ footer .copyright {
     font-size: 2.25em;
     font-weight: 500;
     line-height: 1.2;
+    margin: 0;
 }
 
 /* Aside */
@@ -278,6 +279,10 @@ aside {
     align-items: center;
     flex-flow: row wrap;
     background-color: #527158;
+}
+
+aside h3 {
+    margin: 0 0 20px 0;
 }
 
 aside .form {
@@ -760,6 +765,10 @@ input[type=button] {
     .hero-area h1 {
         font-size: 3.75em;
         width: 80%;
+    }
+
+    .hero-area .content-wrapper {
+        margin: 50px 0;
     }
 
     /* Aside */
