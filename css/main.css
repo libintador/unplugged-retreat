@@ -263,6 +263,10 @@ footer .copyright {
     min-height: 500px;
 }
 
+.hero-area .content-wrapper {
+    margin-top: 30px;
+}
+
 .hero-area h1 {
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-size: 2.25em;
@@ -323,8 +327,8 @@ input[type=button] {
 }
 
 .features h2 {
-    margin-bottom: 60px;
-    max-width: 310px;
+    margin: 0 0 30px;
+    max-width: 450px;
 }
 
 .features article {
@@ -342,7 +346,7 @@ input[type=button] {
 .features p {
     margin: 0;
     text-align: center;
-    max-width: 215px;
+    max-width: 310px;
 }
 
 .features i {
@@ -366,7 +370,7 @@ input[type=button] {
 }
 
 .reviews h3 {
-    width: 55%;
+    max-width: 200px;
     margin: 20px 0;
 }
 
@@ -434,18 +438,23 @@ input[type=button] {
 .faq .content-wrapper {
     margin: 50px 0 0 0;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-flow: row wrap;
 }
 
 .faq h2 {
+
     margin: 0 0 40px 0;
     line-height: 1;
 }
 
 .faq-content {
     margin-bottom: 50px;
+}
+
+.faq-content h4 {
+    margin-top: 0;
 }
 
 /* ==========================================================================
@@ -590,6 +599,10 @@ input[type=button] {
         min-height: 600px;
     }
 
+    .hero-area .content-wrapper {
+        margin: 100px 0;
+    }
+
     .hero-area h1 {
         font-size: 3em;
         line-height: 1;
@@ -645,7 +658,7 @@ input[type=button] {
     }
 
     .reviews h3 {
-        width: 75%;
+        max-width: 400px;
         margin: 0;
     }
 
